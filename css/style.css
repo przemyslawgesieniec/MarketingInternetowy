@@ -1,8 +1,13 @@
-   .parallax-container {
+   /*.parallax-container {
        height:92vh;
-    }
+    }*/
     .section {
      padding-top: 0rem; 
+    }
+    #Pre_Strona_Główna{
+      height:28vh;
+      text-align: center;
+      font-size: 8rem;
     }
     #Usługi{
       height:95vh;
@@ -17,7 +22,7 @@
     }
     #Strona_Główna{
       background-color: white; 
-      
+       height:70vh;
     }
     .parallax-container{
       z-index: 3;
@@ -48,8 +53,7 @@
       width: 20rem;
     }
     .photo_box{
-      height: 20rem;
-      width: 20rem;
+      padding-top: 8rem;
       /*background-color: white;*/
     }
     .s_head_line{
@@ -63,4 +67,18 @@
        font-size: 2rem;
        color: white;
        vertical-align: middle;
+    } 
+    .slider .indicators .indicator-item.active {
+    background-color: white;
+    }
+    #under_baner{
+      font-size: 2rem;
+      letter-spacing: 8px;
+
+    }
+    #brown_text{
+      color:#706363
+    }
+    #UslugiHL{
+      font-size: 3rem;
     }
