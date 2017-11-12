@@ -53,9 +53,10 @@
       width: 20rem;
     }
     .photo_box{
-      padding-top: 8rem;
+      margin-top: 2rem;
       /*background-color: white;*/
     }
+
     .s_head_line{
       font-size: 2rem;
         text-align: center;
@@ -64,21 +65,36 @@
       height: 50vh;
     }
     #oprawki{
-       font-size: 2rem;
-       color: white;
-       vertical-align: middle;
+      padding-top: 1rem;
+      font-size: 5rem;
+      color: white;
+      vertical-align: middle;
+      border-left-style: dashed;
+      border-color: #2F6A89;
+
     } 
     .slider .indicators .indicator-item.active {
-    background-color: white;
+      background-color: #2F6A89;
     }
     #under_baner{
       font-size: 2rem;
       letter-spacing: 8px;
 
     }
-    #brown_text{
-      color:#706363
+    .blue_text{
+     color:#2F6A89
     }
     #UslugiHL{
       font-size: 3rem;
+    }
+    .text_for_photo{
+      margin-top: 5rem;
+      color: white;
+      font-size: 6rem;
+    }
+    .dashed_line_spacing{
+      
+      vertical-align: middle;
+      border-left-style: dashed;
+      border-color: #2F6A89;
     }
