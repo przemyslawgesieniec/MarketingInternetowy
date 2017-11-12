@@ -9,6 +9,11 @@
       text-align: center;
       font-size: 8rem;
     }
+    #Nasz_zespół{
+      height:95vh;
+      padding-top: 2rem;
+      background-color: white;
+    }
     #Usługi{
       height:95vh;
       padding-top: 2rem;
