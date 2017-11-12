@@ -1,0 +1,66 @@
+   .parallax-container {
+       height:92vh;
+    }
+    .section {
+     padding-top: 0rem; 
+    }
+    #Usługi{
+      height:95vh;
+      padding-top: 2rem;
+      background-color: white;
+    }
+    .nav-wrapper{
+      background-color: #3D3D3C;
+    }
+    .page-footer{
+      background-color: #3D3D3C; 
+    }
+    #Strona_Główna{
+      background-color: white; 
+      
+    }
+    .parallax-container{
+      z-index: 3;
+    }
+    #Oferta{
+      height:95vh;
+      background-color: #3D3D3C; 
+    }
+    .head_line{
+      padding-bottom: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      background-color: white; 
+    }
+    .white_text{
+      color: white;
+    }
+    .gray_text{
+      color:#3D3D3C
+    }
+    /*ZESPÓŁ*/
+    #Nasz_zespół{
+      height:95vh;
+      background-color: white; 
+    }
+    .image_container{
+      height: 20rem;
+      width: 20rem;
+    }
+    .photo_box{
+      height: 20rem;
+      width: 20rem;
+      /*background-color: white;*/
+    }
+    .s_head_line{
+      font-size: 2rem;
+        text-align: center;
+    }
+    .oferta{
+      height: 50vh;
+    }
+    #oprawki{
+       font-size: 2rem;
+       color: white;
+       vertical-align: middle;
+    }
