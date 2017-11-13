@@ -10,7 +10,7 @@
       font-size: 15vh;
     }
     #Kontakt{
-      height:70vh;
+      height:75vh;
       padding-top: 2rem;
       background-color: #3D3D3C;
     }
@@ -24,9 +24,6 @@
       /*min-height:95vh;*/
       /*padding-top: 2rem;*/
       background-color: white;
-    }
-    #Stopka{
-      height:25vh;
     }
     .accent_bg_color{
       background-color: #2F6A89;
@@ -145,7 +142,7 @@
     .small_logo{
       text-align: center;
       color: white;
-      font-size: 4rem;
+      font-size: 3rem;
     }
     .small_logo_div{
       text-align: center;
@@ -153,4 +150,28 @@
 
     .spacing{
       letter-spacing: 1rem;
+    }
+    .slider_text_bg{
+      background-color: #2F6A89;
+    }
+    .centerownik{
+      text-align: center;
+    }
+    .yt:hover{
+      color: red;
+    }
+    .inst:hover{
+      color: #bc2a8d;
+    }
+    .fb:hover{
+      color: #3b5998;
+    }
+    .tw:hover{
+      color: #00aced;
+    }
+    .card .card-image .card-title{
+      color:black;
+      font-weight: bold;
+      background-color: white;
+      opacity: 0.5;
     }
