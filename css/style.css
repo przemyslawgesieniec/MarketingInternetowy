@@ -16,6 +16,7 @@
     }
     #Nasz_zespół{
       height:95vh;
+      padding-top: 4rem;
       background-color: white;
     }
     #Usługi{
@@ -155,4 +156,8 @@
     }
     .small_logo_div{
       text-align: center;
+    }
+
+    .spacing{
+      letter-spacing: 1rem;
     }
