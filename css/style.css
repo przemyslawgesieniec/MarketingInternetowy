@@ -7,7 +7,7 @@
     #Pre_Strona_Główna{
       height:28vh;
       text-align: center;
-      font-size: 8rem;
+      font-size: 15vh;
     }
     #Nasz_zespół{
       height:95vh;
@@ -84,8 +84,8 @@
       background-color: #2F6A89;
     }
     #under_baner{
-      font-size: 2rem;
-      letter-spacing: 8px;
+      font-size: 3vh;
+      letter-spacing: 0.7vw;
 
     }
     .blue_text{
