@@ -16,6 +16,7 @@
 </head>
 
 <body>
+  <div class="wraper">
   <div class="navbar-fixed" id="nav">
     <nav>
       <div class="nav-wrapper">
@@ -59,11 +60,11 @@
   </div>
 
   <div id="Usługi" class="section scrollspy wraper">
-    <div class="row ">
-      <div class="col m12">
+    <div class="row">
+      <div class="col m12 " style="height: 10vh;">
         <div class="head_line gray_text flow-text" id="UslugiHL">NASZE USŁUGI</div>
       </div>
-      <div class="col m12" style="padding-bottom: 1vh;"> </div>
+      <div class="col m12" style="padding-bottom: 1vh; "> </div>
       <div class="col s12 m4">
         <div class="card">
           <div class="card-image">
@@ -101,14 +102,8 @@
         </div>
       </div>
     </div>
-    <div class="card-panel accent_bg_color card-card_panel_margin_remover col s12 m12 card_to_bottom">
-      <div class="small_logo_div">
-        <i class="demo-icon icon-glasses small_logo">&#xe806;</i>
-      </div>
-      <span class="white-text scalable_text_S">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      </span>
+    <div class="card-panel accent_bg_color col s12 m12">
+      <div class="small_logo_div"><i class="demo-icon icon-glasses small_logo">&#xe806;</i></div>
     </div>
   </div>
   <div id="Oferta" class="section scrollspy">
@@ -341,29 +336,6 @@
 
   </div>
 
-  <!--Scroll spy-->
-  <!--<div class="col hide-on-small-only m3 l2">
-    <ul class="section table-of-contents">
-      <li><a href="#Strona_Główna">Strona Główna</a></li>
-      <li><a href="#Usługi">Usługi</a></li>
-      <li><a href="#Oferta">Oferta</a></li>
-      <li><a href="#Nasz_zespół">Nasz zespół</a></li>
-      <li><a href="#Nasz_Salon">Nasz Salon</a></li>
-      <li><a href="#Skontaktuj_się_z_nami">Skontaktuj się z nami</a></li>
-    </ul>
-  </div>-->
-
-  <!-- <div class="row">
-      <i class="demo-icon icon-mobile">&#xe800;</i>
-      <i class="demo-icon icon-heart">&#xe801;</i>
-      <i class="demo-icon icon-location">&#xe802;</i>
-      <i class="demo-icon icon-glasses">&#xe806;</i>
-    </div>
-    <div class="row">
-      <i class="demo-icon icon-twitter">&#xf099;</i>
-      <i class="demo-icon icon-youtube-play">&#xf16a;</i>
-      <i class="demo-icon icon-facebook-circled">&#xf30d;</i>
-    </div> -->
 
   <footer id="Stopka" class="page-footer">
     <div class="row">
@@ -400,7 +372,7 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-
+</div>
   <script>
     $(document).ready(function () {
       $('.scrollspy').scrollSpy();

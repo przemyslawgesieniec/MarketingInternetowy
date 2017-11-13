@@ -22,7 +22,7 @@
     #Usługi{
       height:95vh;
       /*min-height:95vh;*/
-      padding-top: 2rem;
+      /*padding-top: 2rem;*/
       background-color: white;
     }
     #Stopka{
@@ -145,14 +145,7 @@
     .small_logo{
       text-align: center;
       color: white;
-      font-size: 6rem;
-    }
-    .wraper{
-      position:relative;
-    }
-    .card_to_bottom{
-      position:absolute; 
-      bottom:0;
+      font-size: 4rem;
     }
     .small_logo_div{
       text-align: center;
