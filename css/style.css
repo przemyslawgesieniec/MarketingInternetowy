@@ -41,10 +41,13 @@
       background-color: #3D3D3C; 
     }
     .head_line{
-      padding-bottom: 1rem;
+      /*padding-bottom: 1vh;*/
       text-align: center;
       font-size: 2rem;
       background-color: white; 
+      border-top-style: dashed;
+      border-color: #2F6A89;
+      border-bottom-style: dashed;
     }
     .white_text{
       color: white;
@@ -97,6 +100,7 @@
     }
     #UslugiHL{
       font-size: 3vw;
+      letter-spacing: 1rem;
     }
     .text_for_photo{
       margin-top: 5rem;
