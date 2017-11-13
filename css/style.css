@@ -73,7 +73,6 @@
     }
     #oprawki{
       padding-top: 1rem;
-      font-size: 4vw;
       color: white;
       vertical-align: middle;
       border-left-style: dashed;
@@ -112,9 +111,8 @@
       font-size: 3rem;
     }
     .scalable_text_L{
-      font-size: 4vw;
+      font-size: 3.5vw;
     }
     .scalable_text_M{
       font-size: 1.8vw;
-      line-height: 90%;
     }
