@@ -16,8 +16,12 @@
     }
     #Usługi{
       height:95vh;
+      /*min-height:95vh;*/
       padding-top: 2rem;
       background-color: white;
+    }
+    .accent_bg_color{
+      background-color: #2F6A89;
     }
     .nav-wrapper{
       background-color: #3D3D3C;
@@ -65,8 +69,8 @@
     }
 
     .s_head_line{
-      font-size: 2rem;
-        text-align: center;
+      font-size: 3vw;
+      text-align: center;
     }
     .oferta{
       height: 50vh;
@@ -92,7 +96,7 @@
      color:#2F6A89
     }
     #UslugiHL{
-      font-size: 3rem;
+      font-size: 3vw;
     }
     .text_for_photo{
       margin-top: 5rem;
@@ -115,4 +119,25 @@
     }
     .scalable_text_M{
       font-size: 1.8vw;
+    }
+    .scalable_text_S{
+      font-size: 1.5vw;
+    }
+    .scalable_text_XS{
+      font-size: 1.6rem;
+    }
+    .small_logo{
+      text-align: center;
+      color: white;
+      font-size: 6rem;
+    }
+    .wraper{
+      position:relative;
+    }
+    .card_to_bottom{
+      position:absolute; 
+      bottom:0;
+    }
+    .small_logo_div{
+      text-align: center;
     }
