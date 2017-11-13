@@ -73,11 +73,12 @@
     }
     #oprawki{
       padding-top: 1rem;
-      font-size: 5rem;
+      font-size: 4vw;
       color: white;
       vertical-align: middle;
       border-left-style: dashed;
       border-color: #2F6A89;
+      min-width: 10vw;
 
     } 
     .slider .indicators .indicator-item.active {
@@ -109,4 +110,11 @@
     }
     .icon-glasses{
       font-size: 3rem;
+    }
+    .scalable_text_L{
+      font-size: 4vw;
+    }
+    .scalable_text_M{
+      font-size: 1.8vw;
+      line-height: 90%;
     }
