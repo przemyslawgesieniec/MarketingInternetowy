@@ -66,29 +66,25 @@
       <div class="col m12">
         <div class="head_line gray_text flow-text" id="UslugiHL">NASZE USŁUGI</div>
       </div>
-      <div class="col m4">
-        <img src="img1.jpg" class="col m12  responsive-img">
+      <div class="col m4 s12">
+        <img src="img1.jpg" class="col m12 ">
+         <div class="col m12 gray_text s_head_line flow-text">DO TWOICH POTRZEB</div>
         <!--<div class="col m12 photo_box"><img src="img1.jpg"></div>-->
       </div>
-      <div class="col m4">
+      <div class="col m4 s12">
         <img src="img3.jpg" class="col m12  responsive-img">
+         <div class="col m12 gray_text s_head_line flow-text">
+        DOBOR SOCZEWEK
       </div>
-      <div class="col m4">
+      </div>
+      <div class="col m4 s12">
         <img src="img2.jpg" class="col m12  responsive-img">
+              <div class="col m12 gray_text s_head_line flow-text">
+        BEZPŁATNE BADANIE WZROKU
+      </div>
       </div>
     </div>
 
-    <div class="row">
-      <div class="col m4 gray_text s_head_line flow-text">
-        DO TWOICH POTRZEB
-      </div>
-      <div class="col m4 gray_text s_head_line flow-text">
-        DOBOR SOCZEWEK
-      </div>
-      <div class="col m4 gray_text s_head_line flow-text">
-        BEZPŁATNE BADANIE WZROKU
-      </div>
-    </div>
 
   </div>
   <div id="Oferta" class="section scrollspy">
@@ -128,17 +124,39 @@
             </ul>
           </div>
         </div>
-        <div class="col m4">
-          <img src="bg1.jpg" class=" responsive-img photo_box">
+        <div class="col m8 oferta">
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="rayban.jpg">
+                <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Ray-Ban</h3>
+                  <h5 class="light grey-text text-lighten-3 flow-text">Genuine since 1937</h5>
+                </div>
+              </li>
+              <li>
+                <img src="vouge.jpg">
+                <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Vogue</h3>
+                  <h5 class="light grey-text text-lighten-3 flow-text">eyewear</h5>
+                </div>
+              </li>
+              <li>
+                <img src="dolce.jpg">
+                <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Dolce &amp Gabana</h3>
+                  <h5 class="light grey-text text-lighten-3 flow-text">Always classy.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-         <div class="col m1"></div>
          <div class="col m1 dashed_line_spacing"></div>
-         <div class="col m6 text_for_photo flow-text">
+         <div class="col m3 text_for_photo flow-text">
            <span class="scalable_text_L">SOCZEWKI KOREKCYJNE</span>
-           </br>
-           <span class="scalable_text_M">W naszej ofercie posiadamy soczewki korekcyjne,
-           również takie, kóre umożliwiają zmianę koloru tęczówki.
-           </span>
       </div>
     </div>
   </div>
@@ -297,9 +315,11 @@
       $('.parallax').parallax();
     });
     $(document).ready(function () {
-      $('.slider').slider({ full_width: true });
+      $('.slider').slider({
+         full_width: true,
+         indicators: false
+      });
     });
-
     $(window).on("load", function () {
       displayMagicParallax();
       $('#canvas').show()
