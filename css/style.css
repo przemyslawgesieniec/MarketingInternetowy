@@ -9,15 +9,22 @@
       text-align: center;
       font-size: 15vh;
     }
+    #Kontakt{
+      height:70vh;
+      padding-top: 2rem;
+      background-color: #3D3D3C;
+    }
     #Nasz_zespół{
       height:95vh;
-      padding-top: 2rem;
       background-color: white;
     }
     #Usługi{
       height:95vh;
       padding-top: 2rem;
       background-color: white;
+    }
+    #Stopka{
+      height:25vh;
     }
     .nav-wrapper{
       background-color: #3D3D3C;
@@ -109,4 +116,10 @@
     }
     .icon-glasses{
       font-size: 3rem;
+    }
+
+    .hr{
+      border-top: 1px solid rgba(160, 160, 160, 0.2);
+      margin-bottom: 15px;
+      height: 1px;
     }
