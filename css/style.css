@@ -36,7 +36,7 @@
     }
     #Strona_Główna{
       background-color: white; 
-       height:70vh;
+       height:90vh;
     }
     .parallax-container{
       z-index: 3;
@@ -174,4 +174,15 @@
       font-weight: bold;
       background-color: white;
       opacity: 0.5;
+    }
+    .socjal{
+      margin-bottom:5vh;
+      font-size: 4vw;
+    }
+    .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+      color:white;
+    }
+    .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating):hover {
+      color:#2F6A89;
+      opacity: 1;
     }
