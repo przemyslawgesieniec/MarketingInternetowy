@@ -58,7 +58,9 @@
       width: 20rem;
     }
     .photo_box{
-      margin-top: 2rem;
+      margin-top: 4rem;
+      max-height: 35vh;
+      max-width: 25vw;
       /*background-color: white;*/
     }
 
@@ -95,11 +97,16 @@
     .text_for_photo{
       margin-top: 5rem;
       color: white;
-      font-size: 6rem;
+      font-size: 5rem;
     }
     .dashed_line_spacing{
-      
+      height: 35vh;
+      margin-top: 4rem;
       vertical-align: middle;
-      border-left-style: dashed;
+      border-right-style: dashed;
       border-color: #2F6A89;
+      text-align:center;
+    }
+    .icon-glasses{
+      font-size: 3rem;
     }
