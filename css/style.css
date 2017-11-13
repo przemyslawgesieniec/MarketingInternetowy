@@ -38,7 +38,7 @@
     }
     #Oferta{
       height:95vh;
-      background-color: #3D3D3C; 
+      /*background-color: #3D3D3C; */
     }
     .head_line{
       /*padding-bottom: 1vh;*/
@@ -76,7 +76,7 @@
       text-align: center;
     }
     .oferta{
-      height: 50vh;
+      height: 95vh;
     }
     #oprawki{
       padding-top: 1rem;
@@ -103,17 +103,16 @@
       letter-spacing: 1rem;
     }
     .text_for_photo{
-      margin-top: 5rem;
+      margin-top: 1rem;
       color: white;
       font-size: 5rem;
+      text-align:right;
     }
     .dashed_line_spacing{
-      height: 35vh;
-      margin-top: 4rem;
+      height: 47.5vh;
       vertical-align: middle;
-      border-right-style: dashed;
+      border-left-style: dashed;
       border-color: #2F6A89;
-      text-align:center;
     }
     .icon-glasses{
       font-size: 3rem;
