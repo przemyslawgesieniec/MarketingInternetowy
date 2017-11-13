@@ -20,11 +20,15 @@
     }
     #Usługi{
       height:95vh;
+      /*min-height:95vh;*/
       padding-top: 2rem;
       background-color: white;
     }
     #Stopka{
       height:25vh;
+    }
+    .accent_bg_color{
+      background-color: #2F6A89;
     }
     .nav-wrapper{
       background-color: #3D3D3C;
@@ -41,13 +45,16 @@
     }
     #Oferta{
       height:95vh;
-      background-color: #3D3D3C; 
+      /*background-color: #3D3D3C; */
     }
     .head_line{
-      padding-bottom: 1rem;
+      /*padding-bottom: 1vh;*/
       text-align: center;
       font-size: 2rem;
       background-color: white; 
+      border-top-style: dashed;
+      border-color: #2F6A89;
+      border-bottom-style: dashed;
     }
     .white_text{
       color: white;
@@ -72,19 +79,19 @@
     }
 
     .s_head_line{
-      font-size: 2rem;
-        text-align: center;
+      font-size: 3vw;
+      text-align: center;
     }
     .oferta{
-      height: 50vh;
+      height: 95vh;
     }
     #oprawki{
       padding-top: 1rem;
-      font-size: 5rem;
       color: white;
       vertical-align: middle;
       border-left-style: dashed;
       border-color: #2F6A89;
+      min-width: 10vw;
 
     } 
     .slider .indicators .indicator-item.active {
@@ -99,27 +106,53 @@
      color:#2F6A89
     }
     #UslugiHL{
-      font-size: 3rem;
+      font-size: 3vw;
+      letter-spacing: 1rem;
     }
     .text_for_photo{
-      margin-top: 5rem;
+      margin-top: 1rem;
       color: white;
       font-size: 5rem;
+      text-align:right;
     }
     .dashed_line_spacing{
-      height: 35vh;
-      margin-top: 4rem;
+      height: 47.5vh;
       vertical-align: middle;
-      border-right-style: dashed;
+      border-left-style: dashed;
       border-color: #2F6A89;
-      text-align:center;
     }
     .icon-glasses{
       font-size: 3rem;
     }
-
     .hr{
       border-top: 1px solid rgba(160, 160, 160, 0.2);
       margin-bottom: 15px;
       height: 1px;
+    }
+    .scalable_text_L{
+      font-size: 3.5vw;
+    }
+    .scalable_text_M{
+      font-size: 1.8vw;
+    }
+    .scalable_text_S{
+      font-size: 1.5vw;
+    }
+    .scalable_text_XS{
+      font-size: 1.6rem;
+    }
+    .small_logo{
+      text-align: center;
+      color: white;
+      font-size: 6rem;
+    }
+    .wraper{
+      position:relative;
+    }
+    .card_to_bottom{
+      position:absolute; 
+      bottom:0;
+    }
+    .small_logo_div{
+      text-align: center;
     }
